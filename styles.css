@@ -1,5 +1,6 @@
 * {
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -7,5 +8,18 @@ body {
 }
 
 h1 {
+	margin: auto;
+	padding: auto;
+
 	color: darkslateblue;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+h2 {
+	margin: auto;
+	padding: auto;
+
+	color: darkslategray;
+	text-transform: lowercase;
 }
