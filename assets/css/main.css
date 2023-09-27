@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+iframe{
+	width: 100%;
+	height: 280px;
+}
+
 /* Basic */
 
 	html {
@@ -1747,7 +1752,6 @@ input, select, textarea {
 		}
 
 /* Button */
-
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1926,6 +1930,8 @@ input, select, textarea {
 			letter-spacing: 3px;
 			text-align: center;
 		}
+
+		
 
 /* Nav */
 
@@ -2347,6 +2353,10 @@ input, select, textarea {
 				display: none;
 			}
 
+			#iframe{
+				width: 100%;
+			}
+
 		/* Nav */
 
 			#page-wrapper {
@@ -2577,7 +2587,7 @@ input, select, textarea {
 			.button {
 				letter-spacing: 2px;
 				display: block;
-				padding: 1em 0 1em 0;
+				padding: 1em 1em 1em 1em;
 				width: 100%;
 			}
 
